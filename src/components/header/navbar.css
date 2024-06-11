@@ -1,0 +1,89 @@
+.navbar{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1px;
+    /* height: 9vh; */
+    padding: 0px 9px;
+    margin-top: 30px;
+}
+.leftside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+.bar-icons{
+    font-size: 30px;
+    color: rgb(70, 70, 70);
+   /* border-right: 1px solid #ccc; */
+  
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  
+}
+.search-bar input{
+    border: none;
+    outline: none;
+   }
+.search-bar input::placeholder{
+    font-size: 16px;
+}
+.search-icon{
+    font-size: 20px;
+    color: rgb(189, 189, 189);
+}
+.search-bar input::placeholder{
+    color: rgb(189, 189, 189);
+}
+.rightside{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+.notification{
+    color: #adadad;
+    position: relative;
+    font-size: 22px;
+    margin: auto;
+    padding: 18px;
+   
+    box-shadow: rgba(0,0,0,0.4) 0px -1px 1px 0px;
+  
+}
+.notification span{
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: red;
+    position: absolute;
+    left: 30px;
+   top: 16px;
+}
+/* .notify-icon{
+    padding: 10px;
+} */
+.login{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border-left: 2px solid #dfdfdf; */
+}
+.login h5{
+    font-size: 13px;
+    color: #757575;
+    font-weight: 300;
+}
+.login img{
+width: 33px;
+height: 33px;
+border-radius: 50%;
+}
+.login .drop-down{
+    font-size: 20px;
+    color: #5a5a5a;
+}

@@ -1,0 +1,13 @@
+.header ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 9px;
+}
+.header ul li{
+    font-size: 12px;
+    color: rgb(52, 58, 105);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}

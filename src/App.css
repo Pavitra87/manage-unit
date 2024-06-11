@@ -1,0 +1,9 @@
+.app{
+  margin: 0 auto;
+  background-color: #dce7e9;
+  width: 94%;
+  height: 106vh;
+}
+li{
+  list-style: none;
+}

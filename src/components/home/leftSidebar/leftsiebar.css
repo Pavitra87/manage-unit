@@ -1,0 +1,33 @@
+.leftsidebar{
+    width: 100px;
+    background-color: rgb(30, 17, 78);
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   padding:20px 10px;
+   align-items: center;
+   height: 97vh;
+  
+}
+.home-icons, .report{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.home-icons{
+border-radius: 2px;
+    background-color:rgb(18, 9, 49) ;
+    padding:10px 20px;
+    border-left: 3px solid rgb(0, 181, 253);
+
+}
+.homeicon, .report-icon{
+    color: skyblue;
+    font-size: 35px;
+}
+.home-icons h4, .report h4{
+    color: rgb(177, 178, 187);
+    font-size: 12px;
+    font-weight: 500;
+}
